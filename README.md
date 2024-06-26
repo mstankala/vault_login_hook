@@ -20,5 +20,5 @@ The function ensures that the `vault` command is installed and manages your Vaul
 - Create a `.vault file in the directories where you want the automatic Vault login to occur. This file should contain the address of the Vault server.
 > echo "http://your-vault-server-address" > .vault
 
-- Change to the directory containing the `.vault` file. The `vault_login_hook` will automatically execute, ensuring you are logged into Vault and your token is valid.
+- Change to the directory containing the `.vault` file. The `vault_login_hook will automatically execute, ensuring you are logged into Vault and your token is valid.
 
